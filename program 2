@@ -1,0 +1,27 @@
+# TO FIND ELEMENTS IN DIFFERENT LOCATIONS
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+flag=0
+for i in range(0,n):
+    if l[i]==x:
+        flag=1
+        if flag==1:
+            print('Element is found at',i,'index location')
+if flag==0:
+    print('Element not found')
+
+output:
+    = RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/search.py
+3
+1 2 1
+1
+Element is found at 0 index location
+Element is found at 2 index location
+
+= RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/search.py
+5
+1 2 3 6 3
+3
+Element is found at 2 index location
+Element is found at 4 index location
