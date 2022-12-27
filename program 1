@@ -1,0 +1,26 @@
+#TO SEARCH THE ELEMENT IN THE LIST
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+flag=0
+for i in range(0,n):
+    if l[i]==x:
+        flag=1
+        break
+if flag==1:
+    print('Element is found at',i,'index location')
+else:
+    print('Element not found')
+
+output:
+    ===================================================== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/search.py ====================================================
+5
+12 34 21 4 6
+4
+Element is found at 3 index location
+
+===================================================== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/search.py ====================================================
+6
+12 23 11 6 2 7
+1
+Element not found
